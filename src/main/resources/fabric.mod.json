@@ -3,10 +3,10 @@
   "id": "tconstruct",
   "version": "${version}",
 
-  "name": "[Fabric] Tinker's Construct",
-  "description": "A fabric port of Tinker's Construct. Make tools a little more, like never before...",
+  "name": "Tinkers' Construct",
+  "description": "Tinkers' Construct for Fabric",
   "authors": [
-    "Me!"
+    "kadirac"
   ],
   "contact": {
     "homepage": "https://github.com/kadirac",
@@ -19,12 +19,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.tconstruct.Mod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
