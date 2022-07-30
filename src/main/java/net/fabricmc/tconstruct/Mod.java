@@ -34,7 +34,7 @@ public class Mod implements ModInitializer {
 			new Identifier("tconstruct", "grout"), GROUT
 			);
 		Registry.register(Registry.ITEM,
-			new Identifier("tutorial", "example_block"),
+			new Identifier("tconstruct", "grout"),
 			new BlockItem(GROUT,
 				new FabricItemSettings().group(ItemGroup.MISC)));
 	}
