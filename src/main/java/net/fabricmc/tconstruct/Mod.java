@@ -20,7 +20,7 @@ public class Mod implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
     public static final Block GROUT = new Block(
-		FabricBlockSettings.of(Material.SOIL));
+		FabricBlockSettings.of(Material.SOIL).strength(4.0f));
 
 	@Override
 	public void onInitialize() {
