@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tconstruct:grout"
-  }
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "tconstruct:block/grout"
+    }
 }
